@@ -1,0 +1,40 @@
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Folders upload
+#uploads/*
+#uploads/teams/*
+uploads/teams/flags/*
+uploads/teams/players/*
+uploads/teams/shields/*
+uploads/users/*
+
+# exception to the rule
+!uploads/.keep 
+# exception
+!uploads/teams/.keep 
+!uploads/teams/flags/.keep 
+!uploads/teams/players/.keep 
+!uploads/teams/shields/.keep 
+!uploads/users/.keep 
